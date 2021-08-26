@@ -106,9 +106,12 @@ header {
 }
 
 .service-info h1,
-.room-types h2 {
+.room-types h2,
+.resto-bars h2,
+.client-review h2,
+.vlogs h2 {
     font-size: 3.5rem !important;
-    font-family: 'Old Standard TT', serif !important;
+    font-family: 'Old Standard TT', Arial, sans-serif !important;
 }
 
 .icon {
@@ -156,7 +159,7 @@ header {
 
 .leftie,
 .room-types {
-    font-family: 'Old Standard TT', serif !important;
+    font-family: 'Old Standard TT', Arial, sans-serif !important;
 }
 
 .leftie h2 {
@@ -171,4 +174,60 @@ header {
     filter: opacity(0.2) drop-shadow(0 0 0 #000000);
     color: rgb(85, 3, 3) !important;
     font-weight: bold;
+}
+
+.resto-bars {
+    margin-top: 6.25rem;
+    margin-bottom: 9rem !important;
+}
+
+.left-one img {
+    width: 34rem !important;
+    height: 38rem !important;
+}
+
+.menu-item {
+    width: 22rem !important;
+    height: 8.5rem !important;
+}
+
+.menu-item img,
+.client-review .top img {
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+}
+
+.menu-item h5,
+.top h6 {
+    color: #a17250;
+}
+
+.guests {
+    width: 22rem !important;
+    height: 14rem !important;
+}
+
+.client-review {
+    margin-bottom: 9rem !important;
+}
+
+.counter-up {
+    background-color: #1d0900;
+    height: 14rem !important;
+    margin-bottom: 9rem !important;
+}
+
+.counters {
+    color: #a17250;
+    font-weight: bold;
+}
+
+.vlogs {
+    margin-bottom: 8.5rem !important;
+}
+
+.gallery img {
+    width: 16rem !important;
+    height: 12rem !important;
 }
