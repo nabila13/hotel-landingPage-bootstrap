@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+body {
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #b1a2a2;
+}
+
+header {
+    background-image: linear-gradient(rgba(49, 49, 49, 0.575), rgba(63, 63, 65, 0.445)), url("../images/banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 650px;
+}
+
+.navigate h3,
+.navigate h6 {
+    color: white !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.navigate li a {
+    color: white !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.middle-banner {
+    margin-top: 240px !important;
+    color: white;
+    font-family: 'Old Standard TT', serif !important;
+    margin-bottom: 80px !important;
+}
+
+#heads {
+    font-size: 4rem;
+}
+
+.banner-buttons .btn {
+    color: white !important;
+    background-color: rgb(161, 114, 80);
+    font-size: .8rem !important;
+}
+
+#white-hover:hover {
+    background-color: white !important;
+    color: black !important;
+    font-weight: bolder;
+}
+
+.darkie {
+    background-color: black;
+    width: 14rem;
+    height: 8.5rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.darkie p {
+    font-size: .7rem;
+}
+
+#brownie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 14rem;
+    height: 8.5rem;
+    background-color: #a17250 !important;
+    color: white;
+}
+
+.main {
+    background-color: #b1a2a2;
+    width: 100%;
+    margin-top: 150px !important;
+}
+
+.about-info {
+    margin-bottom: 11rem !important;
+}
+
+.about-info .right h1 {
+    font-size: 3rem;
+    font-family: 'Old Standard TT', serif !important;
+    font-weight: bold;
+}
+
+.description {
+    background-color: whitesmoke;
+}
+
+.description:hover {
+    background-color: #1d0900 !important;
+    color: white !important;
+}
+
+.service-info h1 {
+    font-size: 3.5rem !important;
+    font-family: 'Old Standard TT', serif !important;
+}
+
+.icon {
+    filter: opacity(0.5) drop-shadow(0 0 0 #ec8032);
+}
+
+.services {
+    padding: 30px 20px !important;
+    border-radius: 50% 50% 50% 0 !important;
+    background-color: white !important;
+    width: 10rem;
+    height: 10rem;
+}
+
+.icon-set {
+    filter: opacity(0.5) drop-shadow(0 0 0 #ec8032);
+}
