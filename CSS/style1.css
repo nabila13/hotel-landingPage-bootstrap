@@ -4,7 +4,7 @@ body {
     width: 100%;
     margin: 0;
     box-sizing: border-box;
-    background-color: #b1a2a2;
+    background-color: #c2bcbc;
 }
 
 header {
@@ -77,7 +77,7 @@ header {
 }
 
 .main {
-    background-color: #b1a2a2;
+    background-color: #c2bcbc !important;
     width: 100%;
     margin-top: 150px !important;
 }
@@ -101,13 +101,18 @@ header {
     color: white !important;
 }
 
-.service-info h1 {
+.service-info {
+    margin-bottom: 6.25rem;
+}
+
+.service-info h1,
+.room-types h2 {
     font-size: 3.5rem !important;
     font-family: 'Old Standard TT', serif !important;
 }
 
 .icon {
-    filter: opacity(0.5) drop-shadow(0 0 0 #ec8032);
+    filter: opacity(0.5) drop-shadow(0 0 0 #a17250);
 }
 
 .services {
@@ -116,8 +121,54 @@ header {
     background-color: white !important;
     width: 10rem;
     height: 10rem;
+    line-height: normal;
 }
 
 .icon-set {
-    filter: opacity(0.5) drop-shadow(0 0 0 #ec8032);
+    filter: opacity(0.5) drop-shadow(0 0 0 #a17250);
+    margin-left: -5px;
+}
+
+.icon-set:hover {
+    filter: opacity(0.5) drop-shadow(0 0 0 #000000) !important;
+}
+
+.services h6 {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: bold;
+    margin-top: -12px !important;
+    margin-left: -7px;
+}
+
+.services:hover {
+    background-color: #a17250 !important;
+    color: white;
+}
+
+.sandwich-section {
+    background-image: linear-gradient(rgba(26, 25, 25, 0.904), rgba(37, 37, 37, 0.842)), url("../images/banner.png");
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 8rem !important;
+}
+
+.leftie,
+.room-types {
+    font-family: 'Old Standard TT', serif !important;
+}
+
+.leftie h2 {
+    color: white;
+}
+
+.leftie h6 {
+    text-align: start !important;
+}
+
+.columnss:hover {
+    filter: opacity(0.2) drop-shadow(0 0 0 #000000);
+    color: rgb(85, 3, 3) !important;
+    font-weight: bold;
 }
