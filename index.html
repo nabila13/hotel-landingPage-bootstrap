@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/f89013a200.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="CSS/style1.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 </head>
 
@@ -169,7 +170,7 @@
         <section class="room-types container">
             <h6 style="color: #a17250;" class="text-center fw-bold">OUR ROOMS</h6>
             <h2 class=" text-center mb-5">FEATURED ROOMS</h2>
-            <div class="row mt-5 overflow-hidden">
+            <div class=" row mt-5 overflow-hidden">
                 <div class="col-lg-4 d-flex flex-column overflow-hidden columnss justify-content-center align-items-center">
                     <div class="row h-50 container-fluid bg-white">
                         <h3 class="text-center mt-4 mb-4">Suite Rooms</h3>
@@ -310,19 +311,19 @@
         </section>
         <section class="counter-up w-100 container-fluid d-flex flex-row row justify-content-lg-around align-items-center">
             <div class="counters mt-lg-3 mt-md-3 mt-sm-3 mt-3 col-lg-3 col-md-6 col-sm-12 col-12">
-                <h1 class="text-center">38,900</h1>
+                <h1 class="text-center counter">38,900</h1>
                 <p class="text-center"># of Happy Clients</p>
             </div>
             <div class="counters col-lg-3 col-md-6 col-sm-12 col-12 mt-lg-3 mt-md-3 mt-sm-3">
-                <h1 class="text-center">320</h1>
+                <h1 class="text-center counter">320</h1>
                 <p class="text-center"># of Rooms</p>
             </div>
             <div class="counters col-lg-3 col-md-6 col-sm-12 col-12 mt-lg-3 mt-md-3 mt-sm-3">
-                <h1 class="text-center">1,000</h1>
+                <h1 class="text-center counter">1,000</h1>
                 <p class="text-center"> # of staffs</p>
             </div>
             <div class="counters col-lg-3 col-md-6 col-sm-12 col-12 mt-lg-3 mt-md-3 mt-sm-3">
-                <h1 class="text-center">587</h1>
+                <h1 class="text-center counter">587</h1>
                 <p class="text-center"># of Destinations</p>
             </div>
         </section>
@@ -403,6 +404,16 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./JS/jquery.waypoints.min.js"></script>
+    <script src="./JS/jquery.counterup.min.js"></script>
+    <script>
+        jQuery(document).ready(function() {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+    </script>
     <script src="JS/script1.js"></script>
 </body>
 
