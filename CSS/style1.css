@@ -190,7 +190,6 @@ header {
 }
 
 .menu-item {
-    width: 22rem !important;
     height: 8.5rem !important;
 }
 
@@ -217,7 +216,6 @@ header {
 
 .counter-up {
     background-color: #1d0900;
-    height: 14rem !important;
     margin-bottom: 9rem !important;
 }
 
@@ -231,6 +229,6 @@ header {
 }
 
 .gallery img {
-    width: 16rem !important;
+    width: 20rem !important;
     height: 12rem !important;
 }
